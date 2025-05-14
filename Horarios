@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horario de Trabajo Editable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th, td {
+      background-color: #fff;
+    }
+    th[contenteditable="true"],
+    td[contenteditable="true"] {
+      background-color: #ffffe0; /* celeste claro para edición */
+    }
+    th:first-child,
+    td:first-child {
+      background-color: #e0f7ff; /* nombres de personas */
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Horarios</h2>
+
+  <table id="horario">
+    <thead>
+      <tr>
+        <th contenteditable="true">OXXO</th>
+        <th contenteditable="true">01/06</th>
+        <th contenteditable="true">02/06</th>
+        <th contenteditable="true">03/06</th>
+        <th contenteditable="true">04/06</th>
+        <th contenteditable="true">05/06</th>
+        <th contenteditable="true">06/06</th>
+        <th contenteditable="true">07/06</th>
+        <th contenteditable="true">08/06</th>
+        <th contenteditable="true">09/06</th>
+        <th contenteditable="true">10/06</th>
+        <th contenteditable="true">11/06</th>
+        <th contenteditable="true">12/06</th>
+        <th contenteditable="true">13/06</th>
+        <th contenteditable="true">14/06</th>
+        <th contenteditable="true">15/06</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true">HUGO</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">ALEJANDRA</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">JORGE</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">ASLY</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">YOXI</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true">DAVID</td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+        <td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
